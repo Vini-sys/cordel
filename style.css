@@ -1,0 +1,61 @@
+*{margin: 0px;
+padding: 0;}
+
+body{
+
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    min-height: 40vh;
+
+}
+
+header > h1 {
+    padding-top: 60px ;
+    font-size: 40px;
+    
+}
+
+header > h3{
+    padding: 10px;
+}
+
+h3 > a{
+ 
+    color: white;
+}
+
+p{
+    padding: 30px;
+    font-size-adjust: 25px;
+    
+    
+}
+
+main > .parte1{
+    
+    max-width: 144px;
+    
+}
+
+main > .section1{
+    background-image: url(imagens/abelha.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-attachment: fixed;
+    min-height: 500px;
+    max-height: 1000px;
+    
+}
+
+article > p{
+    
+  
+    background-color: rgba(0, 0, 0, 0.233);
+    color: white;
+}
