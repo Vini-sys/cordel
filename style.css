@@ -37,10 +37,29 @@ p{
 }
 
 main > .parte1{
-    
-    max-width: 144px;
+    margin-top: 10px;
+    height: 400px;
+    font-size: 2em;
     
 }
+
+.parte2{
+
+    margin-top: 10px;
+    height: 800px;
+    font-size: 2em;
+
+}
+
+.parte3{
+    margin-top: 10px;
+    height: 800px;
+    font-size: 2em;
+
+}
+
+
+
 
 main > .section1{
     background-image: url(imagens/abelha.jpg);
@@ -50,12 +69,44 @@ main > .section1{
     background-attachment: fixed;
     min-height: 500px;
     max-height: 1000px;
+    position: relative;
     
 }
 
-article > p{
+.artigoparagrafo1{
+
+    position: absolute;
+    max-width: 300px;
+
+
+    bottom: 20%;
+    font-size: 30px;
     
-  
     background-color: rgba(0, 0, 0, 0.233);
     color: white;
+    
+}
+
+
+
+
+.artigoparagrafo2{
+    position: absolute;
+   
+    max-width: 300px;
+
+    margin: 10px;
+    font-size: 30px;
+    
+    background-color: rgba(0, 0, 0, 0.308);
+    color: white;
+}
+.section2{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-attachment: fixed;
+    min-height: 500px;
+    max-height: 1000px;
 }
