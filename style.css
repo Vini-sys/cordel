@@ -1,9 +1,6 @@
 *{margin: 0px;
 padding: 0;}
 
-body{
-
-}
 
 header{
     background-color: black;
@@ -98,9 +95,10 @@ main > .section1{
     margin: 10px;
     font-size: 30px;
     
-    background-color: rgba(0, 0, 0, 0.308);
+    background-color: rgba(0, 0, 0, 0.671);
     color: white;
 }
+
 .section2{
     background-image: url(imagens/background002.jpg);
     background-size: cover; 
@@ -109,4 +107,15 @@ main > .section1{
     background-attachment: fixed;
     min-height: 500px;
     max-height: 1000px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+   
+}
+
+footer > p {
+    padding: 0px;
 }
