@@ -1,6 +1,18 @@
 *{margin: 0px;
 padding: 0px;}
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+
+:root{
+    --fonte1: 'Arial, Helvetica, sans-serif';
+    --fonte2:  'Passion One', cursive;
+    --fonte3:  'Sriracha', cursive;
+    
+}
 
 html, body{
     min-height: 100vh;
@@ -17,8 +29,9 @@ header{
 
 header > h1 {
     padding-top: 60px ;
-    font-size: 40px;
+    font-size: 5vw;
     font-variant: small-caps;
+    font-family: var(--fonte2);
     
 }
 
@@ -40,14 +53,14 @@ h3 > a:hover{
 p{
     padding: 30px;
     font-size-adjust: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte3)
     
     
 }
 
 pre > p {
     white-space: pre-line;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 section{
@@ -55,12 +68,13 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding: 30px;
+    font-size: 3.2vw;
 }
 
 main > .parte1{
     margin-top: 10px;
     
-    font-size: 2em;
+    
     
 }
 
@@ -74,20 +88,19 @@ main > .sectionimagem1{
     background-repeat: no-repeat;
     background-position: center right;
     background-attachment: fixed;
-    min-height: 500px;
-    max-height: 1000px;
+    
+    
+   
    
    
     
 }
 
 .paragrafo1{
+    display: inline-block;
+ 
 
    
-
-    max-width: 400px;
-    margin: 10px;
-    font-size: 2em;
     
     background-color: rgba(0, 0, 0, 0.233);
     color: white;
@@ -103,17 +116,20 @@ main > .sectionimagem1{
     background-position: center right;
     background-attachment: fixed;
     min-height: 500px;
-    max-height: 1000px;
+    max-height: 2000px;
+  
     
 }
 
 .paragrafo2{
-    position: absolute;
+    display: inline-block;
+    
+  
+    
+    
    
-    max-width: 400px;
+  
 
-    margin: 10px;
-    font-size: 2em;
     
     background-color: rgba(0, 0, 0, 0.671);
     color: white;
