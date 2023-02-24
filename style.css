@@ -1,6 +1,10 @@
 *{margin: 0px;
-padding: 0;}
+padding: 0px;}
 
+
+html, body{
+    min-height: 100vh;
+}
 
 header{
     background-color: black;
@@ -14,11 +18,12 @@ header{
 header > h1 {
     padding-top: 60px ;
     font-size: 40px;
+    font-variant: small-caps;
     
 }
 
 header > h3{
-    padding: 10px;
+    padding-bottom: 60px;
 }
 
 h3 > a{
@@ -26,39 +31,44 @@ h3 > a{
     color: white;
 }
 
+h3 > a:hover{
+    color:black;
+    background-color: rgba(255, 255, 255, 0.432);
+
+}
+
 p{
     padding: 30px;
     font-size-adjust: 25px;
+    font-family: Arial, Helvetica, sans-serif;
     
     
+}
+
+pre > p {
+    white-space: pre-line;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding: 30px;
 }
 
 main > .parte1{
     margin-top: 10px;
-    height: 400px;
+    
     font-size: 2em;
     
 }
 
-.parte2{
-
-    margin-top: 10px;
-    height: 800px;
-    font-size: 2em;
-
-}
-
-.parte3{
-    margin-top: 10px;
-    height: 800px;
-    font-size: 2em;
-
-}
 
 
 
 
-main > .section1{
+main > .sectionimagem1{
     background-image: url(imagens/abelha.jpg);
     background-size: cover; 
     background-repeat: no-repeat;
@@ -66,40 +76,27 @@ main > .section1{
     background-attachment: fixed;
     min-height: 500px;
     max-height: 1000px;
-    position: relative;
+   
+   
     
 }
 
-.artigoparagrafo1{
+.paragrafo1{
 
-    position: absolute;
-    max-width: 300px;
+   
 
-
-    bottom: 20%;
-    font-size: 30px;
+    max-width: 400px;
+    margin: 10px;
+    font-size: 2em;
     
     background-color: rgba(0, 0, 0, 0.233);
     color: white;
+    line-height: 2em;
     
 }
 
 
-
-
-.artigoparagrafo2{
-    position: absolute;
-   
-    max-width: 300px;
-
-    margin: 10px;
-    font-size: 30px;
-    
-    background-color: rgba(0, 0, 0, 0.671);
-    color: white;
-}
-
-.section2{
+.sectionimagem2{
     background-image: url(imagens/background002.jpg);
     background-size: cover; 
     background-repeat: no-repeat;
@@ -107,7 +104,23 @@ main > .section1{
     background-attachment: fixed;
     min-height: 500px;
     max-height: 1000px;
+    
 }
+
+.paragrafo2{
+    position: absolute;
+   
+    max-width: 400px;
+
+    margin: 10px;
+    font-size: 2em;
+    
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+    line-height: 2em;
+}
+
+
 
 footer{
     text-align: center;
