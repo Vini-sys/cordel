@@ -29,7 +29,7 @@ header{
 
 header > h1 {
     padding-top: 60px ;
-    font-size: 5vw;
+    font-size: 8vw;
     font-variant: small-caps;
     font-family: var(--fonte2);
     
@@ -68,7 +68,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding: 30px;
-    font-size: 3.2vw;
+    font-size: 4vw;
 }
 
 main > .parte1{
