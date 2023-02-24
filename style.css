@@ -113,11 +113,12 @@ main > .sectionimagem1{
     background-image: url(imagens/background002.jpg);
     background-size: cover; 
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: right center;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.295);
     min-height: 500px;
     max-height: 2000px;
-  
+    
     
 }
 
