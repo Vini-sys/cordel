@@ -5,11 +5,14 @@ padding: 0px;}
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 
 
 :root{
     --fonte1: 'Verdana, Geneva, Tahoma,sans-serif';
-    --fonte2:  'Passion One', cursive;
+    --fonte2:  'Russo One', sans-serif;
+
     --fonte3:  'Sriracha', cursive, bold;
     
 }
