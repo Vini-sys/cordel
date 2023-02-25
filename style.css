@@ -1,7 +1,7 @@
 *{margin: 0px;
 padding: 0px;}
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
@@ -9,8 +9,8 @@ padding: 0px;}
 
 :root{
     --fonte1: 'Arial, Helvetica, sans-serif';
-    --fonte2:  'Passion One', cursive;
-    --fonte3:  'Sriracha', cursive;
+    --fonte2:  'Passion One', cursive, Arial;
+    --fonte3:  'Sriracha', cursive, bold;
     
 }
 
@@ -30,8 +30,9 @@ header{
 header > h1 {
     padding-top: 60px ;
     font-size: 8vw;
-    font-variant: small-caps;
+    
     font-family: var(--fonte2);
+    font-style: bold;
     
 }
 
@@ -148,4 +149,5 @@ footer{
 
 footer > p {
     padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
 }
