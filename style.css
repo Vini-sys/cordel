@@ -8,14 +8,15 @@ padding: 0px;}
 
 
 :root{
-    --fonte1: 'Arial, Helvetica, sans-serif';
-    --fonte2:  'Passion One', cursive, Arial;
+    --fonte1: 'Verdana, Geneva, Tahoma,sans-serif';
+    --fonte2:  'Passion One', cursive;
     --fonte3:  'Sriracha', cursive, bold;
     
 }
 
 html, body{
     min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header{
@@ -103,7 +104,7 @@ main > .sectionimagem1{
 
    
     
-    background-color: rgba(0, 0, 0, 0.233);
+    background-color: rgba(0, 0, 0, 0.603);
     color: white;
     line-height: 2em;
     
